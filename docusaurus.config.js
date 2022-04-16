@@ -15,6 +15,17 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: '7GitHub7', // Usually your GitHub org/user name.
   projectName: 'web', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'pl',
+    locales: ['en', 'pl'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+     
+    },
+  },
 
   presets: [
     [
@@ -49,6 +60,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             type: 'doc',
             docId: 'intro',

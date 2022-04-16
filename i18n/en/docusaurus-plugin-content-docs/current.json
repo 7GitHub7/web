@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Algorytmy konsensusu": {
+    "message": "Consensus algorithms",
+    "description": "The label for category Algorytmy konsensusu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Python": {
+    "message": "Python",
+    "description": "The label for category Python in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Basics": {
+    "message": "Basics",
+    "description": "The label for category Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Intermediate": {
+    "message": "Intermediate",
+    "description": "The label for category Intermediate in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools": {
+    "message": "Tools",
+    "description": "The label for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Aplikacje webowe": {
+    "message": "Web Applications",
+    "description": "The label for category Aplikacje webowe in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Java": {
+    "message": "Java",
+    "description": "The label for category Java in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.basics": {
+    "message": "basics",
+    "description": "The label for category basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.concepts": {
+    "message": "concepts",
+    "description": "The label for category concepts in sidebar tutorialSidebar"
+  }
+}

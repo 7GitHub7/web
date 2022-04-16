@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Proactive",
+    "description": "The title in the navbar"
+  },
+  "item.label.Kategorie": {
+    "message": "Kategorie",
+    "description": "Navbar item with label Kategorie"
+  }
+}
