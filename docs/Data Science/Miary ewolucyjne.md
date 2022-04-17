@@ -28,22 +28,47 @@ Aby obliczyć TN wystarczy od całości odjąć pozotałe co daje TN = 27
 
 
 
-## Czułość (sensitivity)
+## Czułość (sensitivity, recall)
 
 Określa ile TP jest w calym zbiorze Positive (również FN).
 TPR = TP/P = TP/TP+FN
 
 Minusem jest to, że nie bierzę pod uwage FP
+Nie bierzę pod uwagę TN.
 Wynik powinien dążyć do 1.
 
 
 
 ## Dokładność (accuracy)
 
+ACC = (TP + TN) / P+N
+
+Określa jakość klasyfikacji. Wskazuje procent poprawnych predykcji w skali wszystkich próbek. Im wynik bliższy 1 tym lepiej.
+
 ## Precyzja (precision)
+
+PPV = TP / TP + FP
+
+Mówi ile było rzeczywiście pozytywncyh wśród wszystkich zaklasyfikowanych pozytywnie.
+Nie bierzę pod uwagę TN.
 
 ## Specyficzność (specificity)
 
+TNR = TN / N
+
+
+Sprawdza ile było pozytywnych  wśród wszystkich negatywnych.
+
 ## Krzywa ROC (Receiver Operating Characteristic)
 
+Wyznaczenie progu odcięcia
+
+ 
+
 ## Krzywa uczenia się
+TBD
+
+
+
+[Więcej informacji na ten temat](https://www.statystyczny.pl/macierz-bledow-raport-dokladnosc-czulosc-precyzja/).
+[Lub tutaj ](https://www.youtube.com/watch?v=1uYvFbPml_A).
