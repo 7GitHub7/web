@@ -78,4 +78,4 @@ calinski_harabasz = metrics.calinski_harabasz_score(iris_scaled, m.labels_)
 ```
 ![](/img/metrics_dbscan.PNG)
 
-Na podstawie obliczonych metryk możemy wybrać dla jakich wejściowych parametrów (eps i min_samples) algorytm wykonał klastrowanie najlepiej
+Na podstawie obliczonych metryk możemy wybrać dla jakich wejściowych parametrów (eps i min_samples) algorytm wykonał klastrowanie najlepiej.
