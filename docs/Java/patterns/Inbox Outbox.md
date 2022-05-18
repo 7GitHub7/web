@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 W tym artykule postaram się wyjaśnić w jaki sposób można zapewnić gwarancję wysyłania i odbierania wiadomości.
-Kluczowym słowem powiązanym danym zagadnieniem jest idempotencja - jest to gwarancja na to, że nie zależnie od ilości wykonań takiej samej czynności, wynik był taki sam.
+Kluczowym słowem powiązanym z danym zagadnieniem jest idempotencja - jest to gwarancja na to, że nie zależnie od ilości wykonań takiej samej czynności, wynik był taki sam.
 Tutaj można sobie wyobrazić sytuację bankową w której otrzymaliśmy dwa zdarzenia o przelewie. Jeśli zdarzenie przetworzymy dwukrotnie to docelowe konto wzbogaci się dwukrotnie o wartość przelewu. Drugim przykładem będzie ta sama sytuacja lecz informacja o przelewie nigdy nie zostanie wysłana - konto użytkownika zostanie obciążone lecz pieniądze nie zostaną nigdy dostarczone.
 
 #### Rodzaje:
@@ -20,4 +20,4 @@ Przychodzące zdarzenia zapisujemy w osobnej tabeli, a następnie synchronizujem
 
 
 Dodatek:
-Gwarancję dostarczalności Exactly- once można także osiągnąć poprzez sprawdzanie unikalnych id zdarzeń - jeśli wszystkie zdarzenia przychodzące są przechowywane w tabeli to możemy weryfikować czy już wcześniej nie otrzymaliśmy takiej samej wiadomości. Minusem jest rozwiązania jest to, że jest kosztowne.
+Gwarancję dostarczalności Exactly- once można także osiągnąć poprzez sprawdzanie unikalnych id zdarzeń - jeśli wszystkie zdarzenia przychodzące są przechowywane w tabeli to możemy weryfikować czy już wcześniej nie otrzymaliśmy takiej samej wiadomości. Minusem rozwiązania jest to, że jest kosztowne.
