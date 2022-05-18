@@ -9,7 +9,7 @@
 Kolumny określaja rzeczywistość, wiersze predykcję.
 Poniżej macierz dla predykcji przy wykorzystaniu algorytmy kNN na zbiorze Iris 
 
-![](/img/heatmap_kNN.PNG)
+![](/img/data-science/heatmap_kNN.PNG)
 
 Chcąc przeanalizować taki wykres musimy wybrać etykietę którą będziemy porównywać z pozostałymi.
 Wybierzmy etykietę 0.

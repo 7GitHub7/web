@@ -64,7 +64,7 @@ distances = distances[:,1]
 plt.plot(distances)
 
 ```
-![](/img/elbow_dbscan.PNG)
+![](/img/data-science/elbow_dbscan.PNG)
 
 Następnie używając bibliotek sklearn możemy obliczyć jakość klustrowania, używając wybranych wskaźników.
 ```jsx title="dbscan.py"
@@ -76,6 +76,6 @@ davies_bouldin = metrics.davies_bouldin_score(iris_scaled, m.labels_)
 calinski_harabasz = metrics.calinski_harabasz_score(iris_scaled, m.labels_)
 
 ```
-![](/img/metrics_dbscan.PNG)
+![](/img/data-science/metrics_dbscan.PNG)
 
 Na podstawie obliczonych metryk możemy wybrać dla jakich wejściowych parametrów (eps i min_samples) algorytm wykonał klastrowanie najlepiej.
